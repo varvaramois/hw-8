@@ -1,0 +1,72 @@
+.text-box h3:first-child {
+    color: pink;
+}
+#greycol {
+    color: gray;
+}
+div div:nth-child(5) {
+    color: red;
+}
+.yellow {
+    color: yellow;
+}
+.text-box p:nth-child(7) {
+    color: green;
+}
+ul {
+    list-style-type: none;
+}
+/* Monday */
+.mon-tagline {
+    color: rgb(195, 0, 0);
+}
+.mon-list {
+    color: rgb(255, 97, 97);
+}
+.mon-list li:nth-child(2n):hover {
+    background-color: rgb(104, 19, 19);
+}
+/* Tuesday */
+.tue-tagline {
+    color: rgb(195, 117, 0);
+}
+.tue-list {
+    color: rgb(255, 187, 97);
+}
+.tue-list li:nth-child(even) {
+    background-color: rgb(195, 117, 0) ;
+}
+a.my-link, a.my-link:visited {
+    text-decoration: none;
+    color: rgb(255, 187, 97);
+}
+/* Wednesday */
+.wed-tagline {
+    color: rgb(187, 195, 0);
+}
+input {
+    color: rgb(231, 238, 155);
+}
+input:focus {
+    background-color: rgb(66, 70, 20);
+}
+/* Thursday */
+.thu-tagline {
+    color: rgb(78, 185, 0);
+}
+.thu-list {
+    color: rgb(169, 213, 136);
+}
+.thu-list li:nth-child(odd):hover {
+    color: rgb(23, 38, 12);
+}
+/* Friday */
+.fri-tagline {
+    color: rgb(0, 131, 195);
+}
+.fri-list {
+    color: rgb(162, 212, 236);
+}
+.fri-list li:not(.list-item) {
+    color: blue;
+}
